@@ -20,4 +20,4 @@ Template.hello.events({
     instance.counter.set(instance.counter.get() + 1);
   },
 });
-document.body.innerHTML += "<h1>Success</h1>"
+document.body.innerHTML += "<h1 style='color:green'>Success</h1>"
